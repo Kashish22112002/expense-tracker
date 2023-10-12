@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1d0fe4;
+    color: white;
+    padding: 10px;
+}
+
+.expense-form {
+    text-align: center;
+    
+    flex: auto;
+    margin: 20px;
+}
+
+.expense-form label, .expense-form input {
+    display: block;
+    margin: auto;
+    flex: auto;
+    
+}
+
+.expense-list {
+    margin: 20px;
+}
+
+.expense-list h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+}
